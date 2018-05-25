@@ -9,9 +9,10 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet">
 
-  <script src="https://use.fontawesome.com/d53c7d897d.js"></script>
-
-
+<script src="https://use.fontawesome.com/d53c7d897d.js"></script>
+  <!--
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+-->
 
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -45,6 +46,7 @@
 	    <li data-target="#home-slider" data-slide-to="4"></li>
       <li data-target="#home-slider" data-slide-to="5"></li>
       <li data-target="#home-slider" data-slide-to="6"></li>
+      <li data-target="#home-slider" data-slide-to="7"></li>
   	</ol>
 
       <div id="outercarousel" class="carousel-inner">
@@ -66,7 +68,7 @@
         </div>
       <div class="item" >
               <div class="caption">
-                <h1 class="animated fadeInLeftBig">Deploy as <span>Docker container</span> or as <span>linux RPM</span></h1>
+                <h1 class="animated fadeInLeftBig">Docker<span> container</span> or <span>linux RPM</span> : Your choice!</h1>
                 <p class="animated fadeInRightBig">Docker private hub |  AWS and Google container registry coming soon</p>
                 <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">See apps and services</a>
               </div>
@@ -82,14 +84,6 @@
           </div>
         </div>
 
-        <div class="item">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Deploy in <spand>Docker/Kubernetes <span> in AWS, Azure or bare-metal</h1>
-            <p class="animated fadeInRightBig">Supports X86 CPU instances | ARM version coming soon</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">See apps and services</a>
-          </div>
-        </div>
-
 
         <div class="item">
           <div class="caption">
@@ -99,9 +93,25 @@
           </div>
         </div>
 
+        <div class="item">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Speed up <span>Kubernetes</span> in AWS, Azure or bare-metal</h1>
+            <p class="animated fadeInRightBig">Supports X86 CPU instances | ARM version coming soon</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">See apps and services</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig"><span>Speed up </span>Filer and Rsync backups <span>10X</span></h1>
+            <p class="animated fadeInRightBig">Onsite 'open-spec' applicances for ultr-fast object stores | Turbocharge your NAS backups with onsite Zipcache</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">See apps and services</a>
+          </div>
+        </div>
+
         <div class="item" style="background-image: url(images/slider/joey-kyber-132520.jpg)" >
               <div class="caption">
-                <h1 class="animated fadeInLeftBig">What <span>WOULD you Do ?</span> if your S3 runs <span>10X faster?</span></h1>
+                <h1 class="animated fadeInLeftBig">How fast <span>will YOUR apps run if your </span>S3 runs 10X faster?</h1>
                 <p class="animated fadeInRightBig">cloud-native | onsite-to-cloud </p>
                 <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">See apps and services</a>
               </div>
@@ -146,10 +156,9 @@
         <div class="row">
           <div class="text-center col-sm-10 col-sm-offset-1">
             <h2>Our Services</h2>
- 		<p>Cloudworks&trade; puts 300+ apps at your finger-tips for ‘pick-n-click’ deployment!</p>
-              <h2>On Kodiak Data clouds they run <a href="http://www.memcloud.works/benchmark-results.html">
-              <strong>FASTER</strong> </a>than public cloud<br>And at <a href="http://www.memcloud.works/benchmark-results.html">
-              <strong>a FRACTION of the Cost!</strong></a></h2>
+ 		<strong>ZipCache&trade; offers a world of choices to shake up the slow world of object storage</strong>
+              <h2>A very zippy in-line cache with state of the art policy and tier management.
+                      <strong>Affordable! Just a few pennies an hour!</strong></h2>
        </div>
         </div>
       </div>
@@ -157,20 +166,20 @@
         <div class="row">
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="service-icon">
-              <i class="fa fa-flask"></i>
+              <i class="fa fa-cubes"></i>
             </div>
             <div class="service-info">
-              <h3>Big Data</h3>
-              <p>Deploy just a simple cluster - or a multi-stack multi-cluster environment. It's simple. Unleash your machines - and let them learn faster!</p>
+              <h3>ZipCache for Docker</h3>
+              <p>Zipcache is a fire-and-forget docker service - available on populer container registries.</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
             <div class="service-icon">
-              <i class="fa fa-database"></i>
+              <i class="fa fa-linux" aria-hidden="true"></i>
             </div>
             <div class="service-info">
-              <h3>Databases</h3>
-              <p>Choose from single/clustered traditional databases like MySQL, Postgress, Oracle - to MongoDB, Riak, HBase, Cassandra and more.</p>
+              <h3>ZipCache for Linux</h3>
+              <p>RPM package for Centos and Redhat</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
@@ -178,8 +187,8 @@
               <i class="fa fa-cloud"></i>
             </div>
             <div class="service-info">
-              <h3>Orchestrated Cloud</h3>
-              <p>Kubernetes. Redhat Openshift. Mesos. DCOS. Stand up a dedicated cloud just for your project. For developers or for production.</p>
+              <h3>IoT and Edge Cloud</h3>
+              <p>Alpine-based distros and ARM support for light-as-feather footprint</p>
             </div>
           </div>
 
